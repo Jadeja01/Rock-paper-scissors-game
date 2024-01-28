@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    margin: 50px;
+    min-height: 100vh;
+
+}
+.container{
+    background-color: white;
+    padding: 20px;
+    width:70%;
+    height: 400px;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.container h2{
+    display: grid;
+    place-items: center;
+    height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration:underline;
+}
+.amount{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.amount p{
+    font-weight: bold;
+}
+.amount input {
+    width: 45%;
+    height: 25px;
+    font-size: 1rem;
+    border-radius: 12px;
+    padding-left:4px ;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.dropdown{
+    padding: 23px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: green; */
+
+}
+.dropdown .from p,.dropdown .to p{
+    font-size: 16px;
+    font-weight: bold;
+}
+.select-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 10px;
+}
+#contry{
+    border: none;
+    height: 25px;
+    cursor: pointer;
+
+}
+.info{
+    margin: 10px 0;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    font-size: 17px;
+}
+form button{
+    text-align: center;
+    margin: 10px auto;
+    padding: 12px;
+    width: 40%;
+    cursor: pointer;
+    color: aliceblue;
+    border-radius: 13px;
+    font-size: 1rem;
+    background-color:purple ;
+    text-transform: uppercase;
+}
